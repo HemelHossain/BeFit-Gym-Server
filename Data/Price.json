@@ -1,0 +1,37 @@
+[{
+  "id": "646cf77fde427e3bc583f2ba",
+  "serviceType": "Basic",
+  "price": "29",
+  "services": {
+    "first": "Free Hand",
+    "second": "Gym Fitness",
+    "third": "Weight Loss",
+    "fourth": "Outstanding",
+    "five": "Personal Trainer"
+  }
+},
+{
+  "id": "646cf77f192a8246cd5ab566",
+  "serviceType": "Standard",
+  "price": "49",
+  "services": {
+    "first": "Free Hand",
+    "second": "Gym Fitness",
+    "third": "Weight Loss",
+    "fourth": "Outstanding",
+    "five": "Personal Trainer"
+  }
+},
+{
+  "id": "646cf77f192924Rcd5ab566",
+  "serviceType": "Premium",
+  "price": "99",
+  "services": {
+    "first": "Free Hand",
+    "second": "Gym Fitness",
+    "third": "Weight Loss",
+    "fourth": "Outstanding",
+    "five": "Personal Trainer"
+  }
+}
+]
