@@ -12,7 +12,7 @@ const price = require('./Data/Price.json');
 const blog = require('./Data/Blog.json');
 
 app.get('/', (req, res) => {
-    res.send('Dragon news server is running');
+    res.send('BeFit Gym server is running');
 });
 
 app.get('/service', (req, res) => {
@@ -29,5 +29,5 @@ app.get('/blog', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`dragon news running on port, ${port}`);
+    console.log(`BeFit Gym running on port, ${port}`);
 })
