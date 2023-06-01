@@ -20,8 +20,8 @@ app.get('/service', (req, res) => {
 });
 app.get('/service/:id', (req, res) => {
     const id = req.params.id;
-    const selectedNews = service.find(s => s.id === id);
-    res.send(selectedNews);
+    const selectedService = service.find(s => s.id === id);
+    res.send(selectedService);
 });
 app.get('/product', (req, res) => {
     res.send(product);
