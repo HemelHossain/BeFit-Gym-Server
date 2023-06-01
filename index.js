@@ -18,6 +18,11 @@ app.get('/', (req, res) => {
 app.get('/service', (req, res) => {
     res.send(service);
 });
+app.get('/service/:id', (req, res) => {
+    const id = req.params.id;
+    const selectedNews = service.find(s => s.id === id);
+    res.send(selectedNews);
+});
 app.get('/product', (req, res) => {
     res.send(product);
 });
